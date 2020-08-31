@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ROS Melodic Installation Script
+# ROS Noetic Installation Script
 
 # Request Admin privileges
 sudo -s
@@ -15,11 +15,11 @@ apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BAD
 apt-get update
 
 # Install ROS
-sudo apt install ros-melodic-desktop-full
+apt install ros-noetic-desktop-full
 
 # Environment setup
 echo "# Source ROS installation setup"  >> ~/.bashrc
-echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # Dependencies for building packages
