@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ROS Melodic Installation Script
+
 # Request Admin privileges
 sudo -s
 
