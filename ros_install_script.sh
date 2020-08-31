@@ -16,6 +16,9 @@ apt-get update
 
 # Install ROS
 apt-get install ros-kinetic-desktop-full
+apt-get install ros-kinetic-desktop-full
+apt-get install ros-kinetic-desktop-full
+apt-get install ros-kinetic-desktop-full
 
 # Environment setup
 echo "# Source ROS installation setup"  >> ~/.bashrc
