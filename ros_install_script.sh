@@ -16,6 +16,8 @@ apt-get update
 
 # Install ROS
 sudo apt install ros-melodic-desktop-full
+sudo apt install ros-melodic-desktop-full
+sudo apt install ros-melodic-desktop-full
 
 # Environment setup
 echo "# Source ROS installation setup"  >> ~/.bashrc
