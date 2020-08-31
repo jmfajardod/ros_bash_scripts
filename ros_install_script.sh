@@ -23,10 +23,10 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # Dependencies for building packages
-apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+apt-get install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 
 # Install rosdep
-apt install python-rosdep
+apt-get install python-rosdep
 
 # Initialize rosdep
 rosdep init
