@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ROS Kinetic Installation Script
+
 # Request Admin privileges
 sudo -s
 
